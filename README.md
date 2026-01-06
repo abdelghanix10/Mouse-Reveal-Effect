@@ -1,4 +1,4 @@
-"# Mouse-Reveal-Effect
+# Mouse Reveal Effect
 
 A beautiful interactive mouse reveal effect that creates stunning visual trails as you move your cursor across the screen.
 
@@ -46,4 +46,4 @@ Works in all modern browsers that support CSS animations and ES6 JavaScript.
 
 ## License
 
-This project is open source and available under the MIT License."
+This project is open source and available under the MIT License.
