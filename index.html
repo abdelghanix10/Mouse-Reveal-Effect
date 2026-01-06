@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mouse-Reveal-Effect</title>
+</head>
+<body>
+    <script>
+
+        document.addEventListener("mousemove", function(e){
+            let body = document.querySelector('body');
+            let circle = document.createElement('span');
+            circle.style.left = -50 + e.offsetX + "px"
+            circle.style.top = -50 + e.offsetY + "px"
+            body.append(circle);
+            setTimeout(function(){
+                circle.remove();
+            }, 3000)
+        })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #000;
+}
+
+span{
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    pointer-events: none;
+    background: url(https://images.pexels.com/photos/35450868/pexels-photo-35450868/free-photo-of-monochrome-winter-forest-with-sunlight-and-snow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: top left;
+    background-position: cover;
+    background-size: 100vh;
+    background-attachment: fixed;
+}
